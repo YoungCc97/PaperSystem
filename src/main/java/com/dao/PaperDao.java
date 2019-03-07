@@ -4,6 +4,11 @@ import com.pojo.Paper;
 
 import java.util.List;
 
+/**
+ *   @author Young
+ *   @date 2019/3/7 15:44
+ *   @description：DAO层
+*/
 public interface PaperDao {
     //新增Paper
     int addPaper(Paper paper);
